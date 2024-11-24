@@ -1,0 +1,14 @@
+<div>
+  <h1>Homework2</h1>
+  <nav>
+    <a
+      routerLink="/"
+      routerLinkActive="active one"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >task1</a
+    >
+  </nav>
+  <nav><a routerLink="/task2" routerLinkActive="active two">task2</a></nav>
+  <nav><a routerLink="/task3" routerLinkActive="active three">task3</a></nav>
+  <router-outlet></router-outlet>
+</div>
